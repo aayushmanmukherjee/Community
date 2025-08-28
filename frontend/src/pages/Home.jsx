@@ -140,7 +140,7 @@ const Home = () => {
 
             <div className="bg-white rounded-4xl shadow mx-auto w-4/5 max-md:w-[95%] px-5 my-5">
               <h2 className="text-2xl max-md:text-xl font-bold py-2">Groups</h2>
-              <div className="flex gap-3 py-5 flex-wrap">
+              <div className="flex gap-2 py-5 flex-wrap">
                 {groups.length > 0 ? (
                   groups.map((g) => <Group group={g} />)
                 ) : (
