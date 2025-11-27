@@ -1,6 +1,35 @@
 # **Community**
 Community is a social platform for family and close friends to connect with Whatsapp-like groups and Instagram-like feed.
 
+# **Tech Stack Used**
+<u>Frontend</u>
+- Reactjs
+<u>Backend</u>
+- Nodejs
+- Expressjs
+<u>Database</u>
+- MongoDB
+<u>Deployment</u>
+- Vercel
+
+# **Setup Instructions**
+<u>Clone the Repository</u>
+`git clone https://github.com/aayushmanmukherjee/community-app.git`
+`cd community-app`
+<u>Backend Setup</u>
+`cd server`
+`npm install`
+<u>Create a .env file in the server/ directory</u>
+`MONGO_URI=<your_mongodb_connection_string>`
+`JWT_SECRET=<your_secret_key>`
+`PORT=5000`
+<u>Run the backend</u>
+`npm start`
+<u>Frontend Setup</u>
+`cd client`
+`npm install`
+`npm start`
+
 # **Preview and Guide**
 ## Welcome Page
 ![Welcome page](./demo-assets/welcome-page.png)
